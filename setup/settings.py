@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-oashxs!84x15sk=y$$g=ut!mt*1o!@0+y-nb0+$j!352y+6hlb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'restaurant-api.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'retaurant-api.herokuapp.com']
 
 # Application definition
 
