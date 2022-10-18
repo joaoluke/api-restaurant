@@ -142,3 +142,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 if 'DATABASE_URL' in os.environ:
     import dj_database_url
     DATABASES = {'default': dj_database_url.config()}
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_ACCESS_KEY_ID = 'AKIATTYFEVX3ATLVIEH7'
+AWS_S3_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'images-menu'
